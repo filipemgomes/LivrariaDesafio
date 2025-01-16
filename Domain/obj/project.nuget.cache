@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ANOvX6mr+NUYnxuW0jGGX7Avp7q9n/VoXW1HkBpShs2SbwmTYX5KTdZ7dWTltA2L3viGfJGZBj2AE0aaBaas1A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Public\\Projects\\LivrariaDesafio\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\filip\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,28 @@
+﻿@model IEnumerable<App.Models.BookViewModel>
+
+<h2>Lista de Livros</h2>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Título</th>
+            <th>Preço Base</th>
+            <th>Modo de Compra</th>
+            <th>Ações</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.BasePrice.ToString("C")</td>
+                <td>@book.PurchaseMode</td>
+                <td>
+                    <a href="#" class="btn btn-sm btn-primary">Editar</a>
+                    <a href="#" class="btn btn-sm btn-danger">Excluir</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
